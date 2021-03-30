@@ -6,6 +6,7 @@ import de.fhg.iais.roberta.util.Util;
 import org.assertj.core.api.Assertions;
 import org.json.JSONObject;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -19,7 +20,7 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-
+@Ignore
 @RunWith(Parameterized.class)
 public class TestResourceCompleteTest {
 
